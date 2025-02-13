@@ -1,0 +1,9 @@
+{
+	"name": "nycadfcopy",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "19e52498-106d-447f-83b0-e7a41cfbae56",
+		"tenantId": "57ffcb2e-8a4d-45b8-8d5d-77568777e677"
+	}
+}
