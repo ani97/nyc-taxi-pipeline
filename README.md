@@ -13,6 +13,7 @@ Contains trip type and description.
 Example:
 
 trip_type,description
+
 1,Street-hail
 2,Dispatch
 
@@ -23,6 +24,7 @@ Contains location details.
 Example:
 
 LocationID,Borough,Zone,service_zone
+
 1,EWR,Newark Airport,EWR
 2,Queens,Jamaica Bay,Boro Zone
 
