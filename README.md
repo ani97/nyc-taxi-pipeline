@@ -85,22 +85,6 @@ Files executed:
 
 ---
 
-## Repository Structure
-```
-nyc-taxi-pipeline/
-│── notebooks/
-│   ├── bronze_to_silver_notebook.ipynb
-│   ├── silver_to_gold_delta.ipynb
-│── data/
-│── scripts/
-│── README.md (this document)
-```
-
-## Next Steps
-- Implement Delta Live Tables for real-time data updates.
-- Optimize query performance using Databricks SQL.
-- Build Power BI dashboards for insights.
-
 ## References
 - [Azure Data Factory Documentation](https://learn.microsoft.com/en-us/azure/data-factory/)
 - [Azure Databricks Documentation](https://learn.microsoft.com/en-us/azure/databricks/)
