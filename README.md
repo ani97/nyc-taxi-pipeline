@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project focuses on building a data pipeline to process NYC taxi trip data using Azure Data Factory, Azure Data Lake Storage (ADLS), and Databricks. The pipeline follows the Medallion architecture, moving data through Bronze, Silver, and Gold layers.
+This project focuses on building a data pipeline to process NYC Green Taxi trip data using Azure Data Factory, Azure Data Lake Storage (ADLS), and Databricks. The pipeline follows the Medallion architecture, moving data through Bronze, Silver, and Gold layers.
+
+The data was collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers authorized under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP). The trip data was not created by the TLC, and TLC makes no representations as to the accuracy of these data.
 
 ## Data Sources
 
@@ -25,6 +27,9 @@ This project focuses on building a data pipeline to process NYC taxi trip data u
   ```
 
 ### 3. Green Taxi Trip Data
+- Contains the following columns:
+VendorID, lpep_pickup_datetime, lpep_dropoff_datetime, store_and_fwd_flag, RatecodeID, PULocationID, DOLocationID, passenger_count, trip_distance, fare_amount, extra, mta_tax, tip_amount, tolls_amount, ehail_fee, improvement_surcharge, total_amount, payment_type, trip_type, congestion_surcharge.
+
 - Pulled using an API for the year 2023.
 - Stored in ADLS in Parquet format.
 
